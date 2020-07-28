@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="TestTitle" id="hXL-z6-Sp9" customClass="TestTitle" customModule="PopView" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="451" height="258"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="z6S-FV-aau">
+                    <rect key="frame" x="0.0" y="0.0" width="451" height="224"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="z6S-FV-aau" firstAttribute="leading" secondItem="OVE-Si-Log" secondAttribute="leading" id="7pb-HG-9g8"/>
+                <constraint firstItem="OVE-Si-Log" firstAttribute="bottom" secondItem="z6S-FV-aau" secondAttribute="bottom" id="VUa-Qb-1yh"/>
+                <constraint firstItem="OVE-Si-Log" firstAttribute="trailing" secondItem="z6S-FV-aau" secondAttribute="trailing" id="t09-uf-Ssb"/>
+                <constraint firstItem="z6S-FV-aau" firstAttribute="top" secondItem="hXL-z6-Sp9" secondAttribute="top" id="xBW-aD-STf"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="OVE-Si-Log"/>
+            <connections>
+                <outlet property="tableView" destination="z6S-FV-aau" id="OJQ-K5-Ugf"/>
+            </connections>
+            <point key="canvasLocation" x="39.855072463768117" y="-62.276785714285708"/>
+        </view>
+    </objects>
+</document>

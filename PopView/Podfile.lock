@@ -1,0 +1,20 @@
+PODS:
+  - SnapKit (4.2.0)
+  - YYText (1.0.7)
+
+DEPENDENCIES:
+  - SnapKit
+  - YYText
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+    - YYText
+
+SPEC CHECKSUMS:
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+
+PODFILE CHECKSUM: 8f2fdcbdb66040714e950e23f2626f26b72ec7fc
+
+COCOAPODS: 1.9.3
