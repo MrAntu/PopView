@@ -1,8 +1,8 @@
 # PopView
 完全可自定义UI,大小的Pop组件。目前支持三种样式（alert, sheet, activity类型）
 
-###具体使用如下：
-####1.创建view继承自 PopContainerView 即可
+###  具体使用如下：
+####  1.创建view继承自 PopContainerView 即可
 ```swift 
 class ActivityTestView: PopContainerView  {
     //1. 重写style，选择需要的样式
@@ -35,14 +35,14 @@ class ActivityTestView: PopContainerView  {
 
 ```
 
-####2.调用
+####  2.调用
 
 ```swift 
     let testV = ActivityTestView()
     testV.show(in: view)
 ```
 
-####3.其他属性介绍
+####  3.其他属性介绍
 
 ```swift
     /// 动画时长
@@ -55,16 +55,16 @@ class ActivityTestView: PopContainerView  {
     var dismissCompleted: (() -> ())?
 ```
 
-#### 4.弹窗样式简介
-* 1. **sheet** 
+####  4.弹窗样式简介
+*  1 **sheet** 
 
 <img src="https://github.com/MrAntu/PopView/blob/master/PopView/07-28%2010_50_24.gif?raw=true" width=200 height=400 />
 
-* 2. **activity**
+* 2 **activity**
 
 <img src="https://github.com/MrAntu/PopView/blob/master/PopView/2020-07-28%2010_51_15.gif?raw=true" width=200 height=400 />
 
-* 3. **alert**
+* 3 **alert**
 
 <img src="https://github.com/MrAntu/PopView/blob/master/PopView/2020-07-28%2010_51_39.gif?raw=true" width=200 height=400 />
 
@@ -75,10 +75,10 @@ class ActivityTestView: PopContainerView  {
 * swift使用方法：在项目的bridging-header中添加。
 
 ```swift
-#import "UIView+CornerRadii.h"
+    #import "UIView+CornerRadii.h"
 ```
 
 ```swift
- imageView.cornerRadii = CornerRadiiMake(10, 0, 0, 10)
+    imageView.cornerRadii = CornerRadiiMake(10, 0, 0, 10)
 ```
 * oc直接导入头文件即可
